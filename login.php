@@ -1,3 +1,4 @@
+<?php require('database/database.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,14 +11,13 @@
     <div class="container">
 
     <form action="" method="">
-    Username:
-    <input type="text" name="username" placeholder=" Enter username..."> </br> </br>
-    Password:
-    <input type="password" name="password" placeholder=" Enter password..."></br>
-    </br>
-    <button type="submit" name="login"> LOGIN </button>
-    
-    
+        Username:
+        <input type="text" name="username" placeholder=" Enter username..."> </br> </br>
+
+        Password:
+        <input type="password" name="password" placeholder=" Enter password..."></br></br>
+
+        <button type="submit" name="login"> LOGIN </button>
     </form>
 
     </div>
