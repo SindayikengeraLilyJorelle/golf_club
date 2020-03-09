@@ -1,0 +1,17 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+html body{
+    padding: 0;
+    margin: 0;
+}
+
+form{
+    position: relative;
+    left: 400px;
+    top: 100px;
+
+
+}
